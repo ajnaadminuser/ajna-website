@@ -1,3 +1,4 @@
+
 .main-container {
   overflow: hidden;
 }
@@ -8,12 +9,18 @@
 }
 
 .main-container {
-  position: relative;
+  /* position: relative;
   width: 1920px;
   height: 3726px;
   margin: 0 auto;
   background: rgb(0, 0, 0);
-  overflow: hidden;
+  overflow: hidden; */
+  width: 100%;
+  max-width: 1920px; /* or your preferred max-width */
+  margin: 0 auto;
+  padding: 15px;
+  background: rgb(0, 0, 0);
+  overflow-x: hidden;
 }
 .auto-layer-row {
   position: relative;
